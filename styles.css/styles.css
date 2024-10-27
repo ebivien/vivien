@@ -1,0 +1,133 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: darkblue;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Header styling */
+h1 {
+    color: white;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0026e6;
+    padding: 1px;
+    border-radius: 4px;
+  }
+  
+  header h1 {
+    color: white;
+    font-size: 2rem;
+  }
+  
+  header nav a {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  header nav a img, header nav a i {
+    vertical-align: middle;
+  }
+
+
+
+
+/* Links styling */
+a {
+    text-decoration: none;
+    margin: 5px;
+    display: inline-block;
+}
+
+/* Icons styling */
+a i {
+    font-size: 30px;
+    color: #555;
+    transition: color 0.3s ease;
+
+
+    @media (max-width: 600px) {
+        /*Styles for mobile devices*/
+        moobile devices*/
+        form/
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+/* Hover effect for icons */
+a:hover i {
+    color: #007bff;
+}
+
+/* Images styling */
+a img {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect for images */
+a:hover img {
+    transform: scale(1.1);
+}
+
+/* Specific icon color styles (customize as needed) */
+.fa-alarm-clock {
+    color: #e67e22;
+}
+
+.fa-whatsapp {
+    color: #25d366;
+}
+
+.fa-paypal {
+    color: #003087;
+}
+
+.fa-x-twitter {
+    color: #1da1f2;
+}
+
+.fa-wifi {
+    color: #28a745;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    a {
+        margin: 10px;
+    }
+
+    a i {
+        font-size: 20px;
+    }
+
+    a img {
+        width: 20px;
+    }
+}
+p{
+    color: white;
+}
+
+.box-container{
+    width: 90%;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 3px;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0,0,0.1);
+    font-size: small;
+
+}
